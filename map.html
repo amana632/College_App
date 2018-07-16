@@ -68,14 +68,21 @@
     }
 
     #pac-input {
-      background-color: #fff;
-      font-family: Roboto;
-      font-size: 15px;
-      font-weight: 300;
-      margin-left: 12px;
-      padding: 0 11px 0 13px;
-      text-overflow: ellipsis;
-      width: 400px;
+     
+      border-color: #c0634c;
+  height: 60px;
+  width: 600px;
+  line-height: 42px;
+  padding: 0 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #212121;
+  border: 0;
+  margin-left:350px;
+  margin-top:50px;
+  float: center;
+  -webkit-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+
     }
 
     #pac-input:focus {
@@ -93,11 +100,13 @@
     #target {
       width: 345px;
     }
+    
   </style>
 </head>
 
 <body>
-  <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+  <input id="pac-input" class="controls" type="text" placeholder="Wanna find something??">
+  
   <div id="map"></div>
   <script>
     // This example adds a search box to a map, using the Google Place Autocomplete

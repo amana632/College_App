@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from eorrangeshop.com/html/listingGeo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Jul 2018 14:49:10 GMT -->
+<head>
+    <!-- Site information -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ListingGEO - Directory Listing Template</title>
+    <meta name="description" content="High Quality Listing Template for Local Business Directory">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="landing/assets/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="landing/style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type='text/css'>
+
+</head>
+
+<body>
+    <div class="banner">
+        <div class="overlay">
+            <div class="banner-content">
+                <div class="container text-center">
+                    <a class="template-logo" href="home-one.html">
+                        <img src="images/logo.png" alt="img" class="img-responsive">
+                    </a>
+                    <h1>ListingGEO - Directory Listing Template</h1>
+                    <div class="btn-group">
+                        <a class="icon-btn adining-listing-btn see-demo-btn" href="#demo-section">See Demo</a>
+                        <a href="https://themeforest.net/item/listinggeo-directory-listing-template/20759180?ref=codepassenger" target="_blank" class="icon-btn explore-listing-btn">Purchase Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="demo-section" id="demo-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a class="demo-item" href="home-one.html" target="_blank">
+                        <div class="demo-thumb">
+                            <img class="img-responsive" src="landing/img/demo/home-1.png" alt="Home 1">
+                            <div class="demo-thumb-overlay">
+                            </div>
+                        </div>
+                        <span class="h4 demo-name">Home One</span>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a class="demo-item" href="home-two.html" target="_blank">
+                        <div class="demo-thumb">
+                            <img class="img-responsive" src="landing/img/demo/home-2.png" alt="Home 2">
+                            <div class="demo-thumb-overlay">
+                            </div>
+                        </div>
+                        <span class="h4 demo-name">Home Two</span>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a class="demo-item" href="dashboard.html" target="_blank">
+                        <div class="demo-thumb">
+                            <img class="img-responsive" src="landing/img/demo/dashboard.png" alt="Dashboard">
+                            <div class="demo-thumb-overlay">
+                            </div>
+                        </div>
+                        <span class="h4 demo-name">Dashboard</span>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a class="demo-item" href="admin/index.html" target="_blank">
+                        <div class="demo-thumb">
+                            <img class="img-responsive" src="landing/img/demo/admin.png" alt="Admin">
+                            <div class="demo-thumb-overlay">
+                            </div>
+                        </div>
+                        <span class="h4 demo-name">Admin Template</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-top-block">
+            <div class="container text-center">
+                <a class="footer-logo">
+                    <img src="images/logo.png" alt="listingGEO">
+                </a>
+                <p>A complete bootstrap 4 Directory Listing Template</p>
+                <div class="btn-group">
+                    <a href="https://themeforest.net/item/listinggeo-directory-listing-template/20759180?ref=codepassenger" target="_blank" class="icon-btn explore-listing-btn">Purchase Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-block">
+            <div class="container text-center">
+                <p class="copyright-text">Design and Developed by <a href="https://themeforest.net/user/codepassenger" target="_blank">CodePassenger</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="landing/assets/jquery.min.js"></script>
+    <script src="landing/assets/bootstrap.min.js"></script>
+    <script>
+        // Select all links with hashes
+        $('.see-demo-btn')
+            // Remove links that don't actually link to anything
+            .not('[href="#"]')
+            .not('[href="#0"]')
+            .click(function(event) {
+                // On-page links
+                if (
+                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+                    location.hostname == this.hostname
+                ) {
+                    // Figure out element to scroll to
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    // Does a scroll target exist?
+                    if (target.length) {
+                        // Only prevent default if animation is actually gonna happen
+                        event.preventDefault();
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000, function() {
+                            // Callback after animation
+                            // Must change focus!
+                            var $target = $(target);
+                            $target.focus();
+                            if ($target.is(":focus")) { // Checking if the target was focused
+                                return false;
+                            } else {
+                                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                $target.focus(); // Set focus again
+                            };
+                        });
+                    }
+                }
+            });
+
+    </script>
+</body>
+
+
+<!-- Mirrored from eorrangeshop.com/html/listingGeo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Jul 2018 14:49:12 GMT -->
+</html>

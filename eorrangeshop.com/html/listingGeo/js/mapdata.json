@@ -1,0 +1,89 @@
+var listingData = {
+ "listingMapData": [
+	 {
+            "listing_id": 1,
+            "listing_cat": "Restaurant",
+            "listing_title": "Tom's Restaurant",
+            "listing_url": "single.html",
+            "listing_img_url": "images/infobox/1.jpg",
+            "listing_address": "964 School Street, <br/>New York, 555NY",
+            "listing_open_close": "close",
+            "listing_rating": 3.5,
+            "listing_rating_count": 20,
+            "listing_lat": 40.730610,
+            "listing_lng": -72.935242,
+            "marker_img": "images/markers/2.png"
+        },
+        {
+            "listing_id": 2,
+            "listing_cat": "Car Parking",
+            "listing_title": "Lab Road General Parking",
+            "listing_url": "single.html",
+            "listing_img_url": "images/infobox/2.jpg",
+            "listing_address": "964 School Street, <br/>New York, 555NY",
+            "listing_open_close": "open",
+            "listing_rating": 4.5,
+            "listing_rating_count": 46,
+            "listing_lat": 43.730610,
+            "listing_lng": -72.0,
+            "marker_img": "images/markers/4.png"
+        },
+        {
+            "listing_id": 3,
+            "listing_cat": "Institute",
+            "listing_title": "Saint Martian University",
+            "listing_url": "single.html",
+            "listing_img_url": "images/infobox/3.jpg",
+            "listing_address": "964 School Street, <br/>New York, 555NY",
+            "listing_open_close": "close",
+            "listing_rating": 4.5,
+            "listing_rating_count": 56,
+            "listing_lat": 43.730610,
+            "listing_lng": -68,
+            "marker_img": "images/markers/8.png"
+        },
+        {
+            "listing_id": 4,
+            "listing_cat": "Park",
+            "listing_title": "Tomas Garden",
+            "listing_url": "single.html",
+            "listing_img_url": "images/infobox/4.jpg",
+            "listing_address": "964 School Street, <br/>New York, 555NY",
+            "listing_open_close": "open",
+            "listing_rating": 5,
+            "listing_rating_count": 72,
+            "listing_lat": 45.730610,
+            "listing_lng": -69.0,
+            "marker_img": "images/markers/3.png"
+        },
+        {
+            "listing_id": 5,
+            "listing_cat": "Mall",
+            "listing_title": "Tutul's Plaza",
+            "listing_url": "single.html",
+            "listing_img_url": "images/infobox/5.jpg",
+            "listing_address": "964 School Street, <br/>New York, 555NY",
+            "listing_open_close": "close",
+            "listing_rating": 2.5,
+            "listing_rating_count": 200,
+            "listing_lat": 39.730610,
+            "listing_lng": -80.935242,
+            "marker_img": "images/markers/1.png"
+        },
+        {
+            "listing_id": 6,
+            "listing_cat": "Club",
+            "listing_title": "Red Button",
+            "listing_url": "single.html",
+            "listing_img_url": "images/infobox/6.jpg",
+            "listing_address": "964 School Street, <br/>New York, 555NY",
+            "listing_open_close": "close",
+            "listing_rating": 3.5,
+            "listing_rating_count": 20,
+            "listing_lat": 43.730610,
+            "listing_lng": -82.935242,
+            "marker_img": "images/markers/7.png"
+        }
+	]
+}
+
